@@ -1,0 +1,75 @@
+/* Fondo degradado elegante */
+body {
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+/* Tarjeta principal del convertidor */
+.converter-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    padding: 2rem 2.5rem;
+    margin: 3rem auto;
+    max-width: 420px;
+    transition: box-shadow 0.3s;
+}
+
+.converter-card:hover {
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.25);
+}
+
+/* Título creativo */
+.converter-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #6a11cb;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Inputs y selects */
+.form-control, .form-select {
+    border-radius: 0.75rem;
+    border: 1.5px solid #bdbdbd;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 0 0.2rem rgba(106, 17, 203, 0.15);
+}
+
+/* Botón convertir */
+.btn-convertir {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.75rem 2rem;
+    box-shadow: 0 4px 16px 0 rgba(106, 17, 203, 0.10);
+    transition: background 0.2s, transform 0.2s;
+}
+
+.btn-convertir:hover {
+    background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+/* Resultado */
+.resultado {
+    background: #f3f8ff;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #2575fc;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0 2px 8px 0 rgba(106, 17, 203, 0.07);
+}
